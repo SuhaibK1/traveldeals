@@ -1,6 +1,6 @@
 require('dotenv').config()
 const sgMail = require('@sendgrid/mail');
-
+ 
 exports.sendWelcome = (message, context) => {
   console.log(`Encoded message: ${message.data}`);
 
