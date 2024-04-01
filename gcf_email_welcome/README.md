@@ -11,6 +11,7 @@ This is a Google Cloud Function triggered by a PubSub message to the topic `trav
 
 ## Deployment Command
 **Ensure you have an active Google Cloud Project**
+
 ```
 gcloud functions deploy send_email_welcome \
 --entry-point sendWelcome \

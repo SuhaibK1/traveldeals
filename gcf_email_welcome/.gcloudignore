@@ -13,4 +13,8 @@
 .git
 .gitignore
 
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+>>>>>>> 85e6b06d60c2324c4d5bfb0042776acac86f90a0
